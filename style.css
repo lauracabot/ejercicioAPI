@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background: linear-gradient(to right, #bebcb4, #776f58);*/
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230519/pngtree-film-reel-and-projector-on-a-desk-image_2572768.jpg');
+    background-size: 125%;
+    }
+    
+  h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    color: #e8e9e2;
+    text-align: center;
+    text-shadow: 4px 4px 10px rgba(58, 82, 13, 0.3);
+    letter-spacing: 4px;
+    margin: 40px 0;
+  }
+  
+  button#btn-cargar-personajes {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #9e8f3cd3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(19, 18, 18, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button#btn-cargar-personajes:hover {
+    background-color: #546119;
+    transform: scale(1.05);
+  }
